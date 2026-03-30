@@ -1,11 +1,11 @@
 # LocalInk - Global Country Explorer
 
-> A responsive web application showcasing modern web development practices by fetching and displaying real-world data from public APIs.
 
+![banner](./banner/Thumbnail%20(1).png)
 
 ## Overview
 
-LocalInk is a responsive web application that demonstrates core web development competencies: fetching data from a public REST API, building responsive interfaces, and implementing clean, modular JavaScript. The current implementation features a **Global Country Explorer** that lets users search, filter, and explore detailed information about 250+ countries worldwide.
+LocalInk is a responsive web application that fetches data from a public REST API. The current implementation features a **Global Country Explorer** that lets users search, filter, and explore detailed information about 250+ countries worldwide.
 
 This project showcases real-world development practices including semantic HTML, responsive design, asynchronous programming, error handling, unit testing, and version control.
 
