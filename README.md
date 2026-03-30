@@ -2,11 +2,6 @@
 
 > A responsive web application showcasing modern web development practices by fetching and displaying real-world data from public APIs.
 
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
 
 ## Overview
 
@@ -82,7 +77,7 @@ npm run dev
 # Visit: http://localhost:5173
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Run Tests
 ```bash
@@ -97,7 +92,7 @@ Data Manager:  7/7 tests passing
 Coverage:      85%+ statements 
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric | Score | Status |
 |--------|-------|--------|

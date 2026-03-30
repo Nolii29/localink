@@ -5,6 +5,9 @@
 
 const API_BASE_URL = 'https://restcountries.com/v3.1';
 
+// Specify which fields we need (max 10 fields allowed)
+const FIELDS = 'fields=name,cca2,region,capital,population,area,flags,languages,currencies,timezones';
+
 class CountriesAPIClient {
     /**
      * Fetch all countries data
@@ -12,7 +15,7 @@ class CountriesAPIClient {
      */
     static async getAllCountries() {
         try {
-            const response = await fetch(`${API_BASE_URL}/all`);
+            const response = await fetch(`${API_BASE_URL}/all?${FIELDS}`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -33,7 +36,7 @@ class CountriesAPIClient {
         }
 
         try {
-            const response = await fetch(`${API_BASE_URL}/name/${encodeURIComponent(name)}`);
+            const response = await fetch(`${API_BASE_URL}/name/${encodeURIComponent(name)}?${FIELDS}`);
             
             // 404 means no countries found
             if (response.status === 404) {
@@ -60,7 +63,7 @@ class CountriesAPIClient {
      */
     static async getByCode(code) {
         try {
-            const response = await fetch(`${API_BASE_URL}/alpha/${code}`);
+            const response = await fetch(`${API_BASE_URL}/alpha/${code}?${FIELDS}`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
