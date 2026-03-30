@@ -280,12 +280,4 @@ A: Check browser console (F12) for JavaScript errors.
 
 This project is open source and available under the MIT License.
 
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## Support
-
-For questions or issues, please open a GitHub issue or review the inline code comments for detailed explanations.
-
----
