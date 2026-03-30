@@ -8,25 +8,25 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
 
-## 🌍 Overview
+## Overview
 
 LocalInk is a responsive web application that demonstrates core web development competencies: fetching data from a public REST API, building responsive interfaces, and implementing clean, modular JavaScript. The current implementation features a **Global Country Explorer** that lets users search, filter, and explore detailed information about 250+ countries worldwide.
 
 This project showcases real-world development practices including semantic HTML, responsive design, asynchronous programming, error handling, unit testing, and version control.
 
-## ✨ Features
+## Features
 
-- 🔍 **Search Countries** - Real-time search by country name or capital
-- 🌍 **Filter by Region** - Quickly narrow by continent (Africa, Asia, Europe, Americas, Oceania)
-- 📱 **Fully Responsive** - Works seamlessly on mobile (320px), tablet (768px), and desktop (1920px+)
-- 📊 **Detailed Information** - View population, area, currencies, languages, timezone
-- ♿ **Accessible** - WCAG 2.1 AA compliant with keyboard navigation
-- 🎨 **Dark Mode** - Automatic theme switching based on OS preferences
-- ⚡ **Fast Performance** - Optimized load times (1.2s initial load)
-- 🧪 **Well-Tested** - Jest unit test suite with 85%+ coverage
-- 🛡️ **Error Handling** - Graceful error messages and retry functionality
+-  **Search Countries** - Real-time search by country name or capital
+-  **Filter by Region** - Quickly narrow by continent (Africa, Asia, Europe, Americas, Oceania)
+-  **Fully Responsive** - Works seamlessly on mobile (320px), tablet (768px), and desktop (1920px+)
+-  **Detailed Information** - View population, area, currencies, languages, timezone
+-  **Accessible** - WCAG 2.1 AA compliant with keyboard navigation
+-  **Dark Mode** - Automatic theme switching based on OS preferences
+-  **Fast Performance** - Optimized load times (1.2s initial load)
+-  **Well-Tested** - Jest unit test suite with 85%+ coverage
+-  **Error Handling** - Graceful error messages and retry functionality
 
-## 🏗️ Architecture
+##  Architecture
 
 ### System Design
 
@@ -56,7 +56,7 @@ Updated User Interface
 - **Build:** Vite (development)
 - **Tools:** Git, VS Code
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Run Immediately (Easiest)
 ```bash
@@ -92,23 +92,23 @@ npm test
 
 ### Test Coverage
 ```
-API Client:    6/6 tests passing ✅
-Data Manager:  7/7 tests passing ✅
-Coverage:      85%+ statements ✅
+API Client:    6/6 tests passing 
+Data Manager:  7/7 tests passing 
+Coverage:      85%+ statements 
 ```
 
 ## 📊 Performance Metrics
 
 | Metric | Score | Status |
 |--------|-------|--------|
-| Lighthouse Performance | 95/100 | ✅ |
-| Lighthouse Accessibility | 90/100 | ✅ |
-| Lighthouse Best Practices | 88/100 | ✅ |
-| Lighthouse SEO | 92/100 | ✅ |
-| Initial Load Time | 1.2s | ✅ |
-| Search Response | 0.15s | ✅ |
+| Lighthouse Performance | 95/100 | 
+| Lighthouse Accessibility | 90/100 |
+| Lighthouse Best Practices | 88/100 |
+| Lighthouse SEO | 92/100 | 
+| Initial Load Time | 1.2s | 
+| Search Response | 0.15s | 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 localink/
@@ -131,7 +131,7 @@ localink/
 └── .git/                        # Version control
 ```
 
-## 💻 Code Quality
+## Code Quality
 
 ### Modular Architecture
 ```javascript
@@ -165,14 +165,14 @@ class CountryExplorer {
 ```
 
 ### Key Features
-- ✅ **Semantic HTML** - Proper tags, ARIA attributes, accessibility
-- ✅ **Responsive CSS** - CSS Grid, Flexbox, mobile-first approach
-- ✅ **Async JavaScript** - fetch() API with error handling
-- ✅ **Clean Code** - Clear naming, comments, DRY principles
-- ✅ **Error Handling** - Network, API, and validation errors
-- ✅ **Performance** - Debounced search, lazy image loading
+-  **Semantic HTML** - Proper tags, ARIA attributes, accessibility
+-  **Responsive CSS** - CSS Grid, Flexbox, mobile-first approach
+-  **Async JavaScript** - fetch() API with error handling
+-  **Clean Code** - Clear naming, comments, DRY principles
+-  **Error Handling** - Network, API, and validation errors
+-  **Performance** - Debounced search, lazy image loading
 
-## 🌐 API Integration
+## API Integration
 
 ### REST Countries API v3.1
 
@@ -200,45 +200,35 @@ class CountryExplorer {
 }
 ```
 
-## 📱 Responsive Design
 
-Works perfectly on all devices:
-
-| Device | Width | Columns | Status |
-|--------|-------|---------|--------|
-| Mobile | 320px | 1 | ✅ |
-| Tablet | 768px | 2 | ✅ |
-| Desktop | 1024px+ | 3-4 | ✅ |
-| Large | 1920px+ | 4-5 | ✅ |
-
-## 🎓 What This Demonstrates
+## What This Demonstrates
 
 ### Technical Competencies
-- ✅ RESTful API consumption
-- ✅ Responsive web design
-- ✅ Vanilla JavaScript modules
-- ✅ Asynchronous programming (async/await)
-- ✅ DOM manipulation & events
-- ✅ Error handling & resilience
-- ✅ Git version control
-- ✅ Unit testing
+- RESTful API consumption
+- Responsive web design
+- Vanilla JavaScript modules
+- Asynchronous programming (async/await)
+- DOM manipulation & events
+- Error handling & resilience
+- Git version control
+- Unit testing
 
 ### Professional Practices
-- ✅ Clean code principles
-- ✅ Semantic HTML & accessibility
-- ✅ Performance optimization
-- ✅ Documentation
-- ✅ Testing methodology
-- ✅ Responsive design workflow
+- Clean code principles
+- Semantic HTML & accessibility
+- Performance optimization
+- Documentation
+- Testing methodology
+- Responsive design workflow
 
-## 🔒 Security
+## Security
 
-- ✅ XSS prevention (HTML escaping)
-- ✅ No eval() or inline scripts
-- ✅ HTTPS ready
-- ✅ Input validation
+- XSS prevention (HTML escaping)
+- No eval() or inline scripts
+- HTTPS ready
+- Input validation
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 **Q: "Cannot fetch countries"**
 A: Check internet connection. REST Countries API should be accessible.
@@ -252,15 +242,15 @@ A: Ensure `styles/` folder is in same directory as `index.html`.
 **Q: Modal not opening**
 A: Check browser console (F12) for JavaScript errors.
 
-## 📚 Browser Support
+## Browser Support
 
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+-  Chrome 90+
+-  Firefox 88+
+-  Safari 14+
+-  Edge 90+
+-  Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📝 Development Notes
+## Development Notes
 
 ### Code Organization
 - Each module handles a specific responsibility
@@ -281,7 +271,7 @@ A: Check browser console (F12) for JavaScript errors.
 - Retry functionality
 - console.error for debugging
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - Add caching (LocalStorage)
 - Comparison tool for multiple countries
@@ -291,83 +281,16 @@ A: Check browser console (F12) for JavaScript errors.
 - Historical data trends
 - Multi-language support
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 👨‍💻 Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📞 Support
+## Support
 
 For questions or issues, please open a GitHub issue or review the inline code comments for detailed explanations.
 
 ---
-
-**Built with ❤️ for learning and community** 🚀
-
-### Phase 2: Provider Onboarding & Bookings
-- Provider profiles and verification
-- Service listings management
-- Booking system implementation
-- Review system
-
-### Phase 3: Search & Discovery
-- Advanced search and filtering
-- Notification system
-- Service recommendations
-
-### Phase 4: Payments & Trust
-- Stripe integration
-- Secure payment processing
-- Enhanced review and rating system
-
-### Phase 5: Admin & Optimization
-- Admin dashboard
-- Analytics and reporting
-- Performance optimization
-- SEO improvements
-
-## API Documentation
-
-### Authentication
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `GET /api/auth/profile` - Get current user
-
-### Services
-- `GET /api/services` - List services
-- `POST /api/services` - Create service (providers)
-- `GET /api/services/:id` - Service details
-
-### Bookings
-- `GET /api/bookings` - List user bookings
-- `POST /api/bookings` - Create booking
-- `PUT /api/bookings/:id` - Update booking
-
-### Reviews
-- `GET /api/reviews` - List reviews
-- `POST /api/reviews` - Create review
-
-See full documentation in `docs/` folder.
-
-## Contributing
-
-We welcome contributions! Please ensure you:
-1. Follow the code style (ESLint configuration included)
-2. Write clear commit messages
-3. Add tests for new features
-4. Update documentation as needed
-
-## License
-
-This project is licensed under the MIT License - see LICENSE file for details.
-
-## Support
-
-For questions or issues, please open a GitHub issue or contact the development team.
-
----
-
-
