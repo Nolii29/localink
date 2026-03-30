@@ -94,8 +94,8 @@ Coverage:      85%+ statements
 
 ## Performance Metrics
 
-| Metric | Score | Status |
-|--------|-------|--------|
+| Metric | Score |
+|--------|-------|
 | Lighthouse Performance | 95/100 | 
 | Lighthouse Accessibility | 90/100 |
 | Lighthouse Best Practices | 88/100 |
