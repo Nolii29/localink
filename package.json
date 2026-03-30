@@ -1,0 +1,34 @@
+{
+  "name": "localink",
+  "version": "1.0.0",
+  "description": "A responsive web application showcasing modern web development practices",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/js/",
+    "format": "prettier --write src/"
+  },
+  "keywords": [
+    "web-development",
+    "responsive-design",
+    "rest-api",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@testing-library/dom": "^9.3.3",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3"
+  }
+}

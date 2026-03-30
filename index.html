@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Global Country Explorer - Discover countries, capitals, and statistics worldwide" />
+    <title>LocalInk - Global Country Explorer</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">🌍 Global Country Explorer</h1>
+            <p class="header__subtitle">Discover countries, capitals, and statistics worldwide</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-box__input" 
+                    placeholder="Search by country name..." 
+                    aria-label="Search countries"
+                />
+                <button id="resetBtn" class="search-box__reset" aria-label="Reset search">Reset</button>
+            </div>
+            <div class="filter-box">
+                <select id="regionFilter" class="filter-box__select" aria-label="Filter by region">
+                    <option value="">All Regions</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <div id="loadingSpinner" class="spinner hidden" role="status" aria-live="polite">
+                <div class="spinner__circle"></div>
+                <p>Loading countries...</p>
+            </div>
+
+            <div id="errorContainer" class="error-message hidden" role="alert" aria-live="polite">
+                <p id="errorText"></p>
+                <button id="retryBtn" class="error-message__btn">Try Again</button>
+            </div>
+
+            <div id="countriesGrid" class="countries-grid" role="main" aria-label="Country cards">
+                <!-- Country cards will be inserted here -->
+            </div>
+
+            <div id="noResults" class="no-results hidden" role="status" aria-live="polite">
+                <p>No countries found. Try a different search.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for country details -->
+    <div id="modal" class="modal hidden" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+        <div class="modal__content">
+            <button id="closeModal" class="modal__close" aria-label="Close modal">×</button>
+            <div id="modalBody">
+                <!-- Detailed country info will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 LocalInk - Global Country Explorer | Data from REST Countries API</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
